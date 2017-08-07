@@ -13,7 +13,7 @@
 	<div id="pageDiv">
 	
 		<h1>
-		Meal Creator
+		Meal Decision Engine
 		</h1>
 	
 	
@@ -22,33 +22,118 @@
 			
 			<form method="post" action="">
 				<div id="center">
-					<label>Meal Type</label>
-					<input type="text" name="meal_type" />
+					
+					<b>I'm in the mood for:<br></b>
+					
+					<label>Meal Type:	</label>
+						<select>
+							<option value="appetizer">Appetizer</option>
+							<option value="breakfast">Breakfast</option>
+							<option value="lunch">Lunch</option>
+							<option value="dinner">Dinner</option>
+							<option value="dessert">Dessert</option>
+						</select>
 					<p />
 			
-					<label>Cuisine</label>
-					<input type="text" name="cuisine" />
+					<label>Cuisine:	</label>
+						<select>
+							<option value="american">American</option>
+							<option value="bavarian">Bavarian</option>
+							<option value="chinese">Chinese</option>
+							<option value="french">French</option>
+							<option value="fusion">Fusion</option>
+							<option value="indian">Indian</option>
+							<option value="japanese">Japanese</option>
+							<option value="mexican">Mexican</option>
+							<option value="thai">Thai</option>
+							<option value="vietnamese">Vietnamese</option>
+						</select>
 					<p />
 			
-					<label>Starch</label>
-					<input type="text" name="starch_type" />
+					<b>Made with:<br></b>
+					<label>Starch:	</label>
+						<select>
+							<option value="none">No starch</option>
+							<option value="bagel">Bagel</option>
+							<option value="bread">Bread, loaf</option>
+							<option value="breadsand">Bread, sandwich</option>
+							<option value="cornbread">Cornbread</option>
+							<option value="tortillacorn">Tortilla, corn</option>
+							<option value="tortillawheat">Tortilla, wheat</option>
+							<option value="noodleramen">Noodles, ramen</option>
+							<option value="noodlespaghetti">Noodles, spaghetti</option>
+							<option value="pastamac">Pasta, macaroni</option>
+							<option value="pastapenne">Pasta, penne</option>
+							<option value="potato">Potato</option>
+							<option value="quinoa">Quinoa</option>
+							<option value="rice">Rice</option>
+							<option value="none">Other</option>
+
+						</select>
 					<p />
 			
-					<label>Protein</label>
-					<input type="text" name="protein_type" />
+					<label>Protein:	</label>
+						<select>
+							<option value="none">No protein</option>
+							<option value="beans">Beans</option>
+							<option value="chicken">Chicken</option>
+							<option value="beef">Beef</option>
+							<option value="sausage">Sausage</option>
+							<option value="pepperoni">Pepperoni</option>
+							<option value="ham">Ham</option>
+							<option value="pork">Pork</option>
+							<option value="fish">Fish</option>
+							<option value="shrimp">Shrimp</option>
+							<option value="none">Other</option>
+
+						</select>
 					<p />
 					
-					<label>Vegetarian</label>
-					<input type="bool" name="veggie_or_not" />
+					
+					<table id ="table">
+					
+					<tr>
+						<b>Advanced options: </b>
+					</tr>
+					
+					<tr>
+						<td>
+						<label>Vegetarian:	</label>
+						<input type="checkbox" name="veggie_or_not" />
+						<p />
+						</td>
+						
+						<td>
+						<label>Cold: </label>
+						<input type="checkbox" name="hot_or_not" />
+						<p />
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+						<label>For a crowd:	</label>
+						<input type="checkbox" name="veggie_or_not" />
+						<p />
+						</td>
+					
+						<td>
+						<label>Fast: </label>
+						<input type="checkbox" name="hot_or_not" />
+						<p />
+						</td>
+					</tr>
+					
+					</table>
+					
+					<label>Out of:	</label>
+					<input type="text" name="protein_type" placeholder="eggs, milk, ... etc"/>
 					<p />
 					
-					<label>Cooked</label>
-					<input type="bool" name="hot_or_not" />
-					<p />
 				</div>
 		
 				<div id="center">
-					<input type="submit" value="Get Meal">
+					<input class="button" type="submit" value="Get Meal">
 				</div>
 		
 			</form>
