@@ -20,13 +20,14 @@
 		<div id="bgDiv">
 		
 			
-			<form method="post" action="">
+			<form method="post" action="finalDB.php">
 				<div id="center">
 					
 					<b>I'm in the mood for:<br></b>
 					
 					<label>Meal Type:	</label>
 						<select>
+							<option value="none">Any</option>
 							<option value="appetizer">Appetizer</option>
 							<option value="breakfast">Breakfast</option>
 							<option value="lunch">Lunch</option>
@@ -37,6 +38,7 @@
 			
 					<label>Cuisine:	</label>
 						<select>
+							<option value="none">Any</option>
 							<option value="american">American</option>
 							<option value="bavarian">Bavarian</option>
 							<option value="chinese">Chinese</option>
@@ -49,11 +51,30 @@
 							<option value="vietnamese">Vietnamese</option>
 						</select>
 					<p />
-			
+					
+					
 					<b>Made with:<br></b>
+					
+					<label>Protein:	</label>
+						<select>
+							<option value="none">Any</option>
+							<option value="beans">Beans</option>
+							<option value="chicken">Chicken</option>
+							<option value="beef">Beef</option>
+							<option value="sausage">Sausage</option>
+							<option value="pepperoni">Pepperoni</option>
+							<option value="ham">Ham</option>
+							<option value="pork">Pork</option>
+							<option value="fish">Fish</option>
+							<option value="shrimp">Shrimp</option>
+							<option value="none">Other</option>
+
+						</select>
+					<p />
+			
 					<label>Starch:	</label>
 						<select>
-							<option value="none">No starch</option>
+							<option value="none">Any</option>
 							<option value="bagel">Bagel</option>
 							<option value="bread">Bread, loaf</option>
 							<option value="breadsand">Bread, sandwich</option>
@@ -67,23 +88,6 @@
 							<option value="potato">Potato</option>
 							<option value="quinoa">Quinoa</option>
 							<option value="rice">Rice</option>
-							<option value="none">Other</option>
-
-						</select>
-					<p />
-			
-					<label>Protein:	</label>
-						<select>
-							<option value="none">No protein</option>
-							<option value="beans">Beans</option>
-							<option value="chicken">Chicken</option>
-							<option value="beef">Beef</option>
-							<option value="sausage">Sausage</option>
-							<option value="pepperoni">Pepperoni</option>
-							<option value="ham">Ham</option>
-							<option value="pork">Pork</option>
-							<option value="fish">Fish</option>
-							<option value="shrimp">Shrimp</option>
 							<option value="none">Other</option>
 
 						</select>
@@ -118,7 +122,7 @@
 						</td>
 					
 						<td>
-						<label>Fast: </label>
+						<label>Quick: </label>
 						<input type="checkbox" name="hot_or_not" />
 						<p />
 						</td>
