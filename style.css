@@ -4,7 +4,14 @@ body {
 
 h1 {
     color: white;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+h2 {
+    color: orangered;
 	font-size: 16px;
+	font-variant: small-caps;
 }
 
 .button {
@@ -37,14 +44,94 @@ h1 {
 	text-align: center;
 }
 
-#bgDiv{
+#bgDivScroll{
 	font-family: "Century Gothic", "Times Roman", sans-serif; ;
 	padding-top:25px;
 	padding-bottom:15px;
 	text-align: left;
 	background: white;
-	width: 320px;
-	height: 350px;
+	width: 500px;
+	height: 250px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: scroll;
+}
+
+#bgDivFat{
+	font-family: "Century Gothic", "Times Roman", sans-serif; ;
+	padding-top:25px;
+	padding-bottom:15px;
+	text-align: left;
+	background: white;
+	width: 600px;
+	height: 300px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: scroll;
+}
+
+#bgDivLong{
+	font-family: "Century Gothic", "Times Roman", sans-serif; ;
+	padding-top:25px;
+	padding-bottom:15px;
+	text-align: left;
+	background: white;
+	width: 500px;
+	height: 740px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bgDivMid{
+	font-family: "Century Gothic", "Times Roman", sans-serif; ;
+	padding-top:25px;
+	padding-bottom:15px;
+	text-align: left;
+	background: white;
+	width: 500px;
+	height: 500px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bgDivMidPlus{
+	font-family: "Century Gothic", "Times Roman", sans-serif; ;
+	padding-top:25px;
+	padding-bottom:15px;
+	text-align: left;
+	background: white;
+	width: 500px;
+	height: 600px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bgDivShort{
+	font-family: "Century Gothic", "Times Roman", sans-serif; ;
+	padding-top:25px;
+	padding-bottom:15px;
+	text-align: left;
+	background: white;
+	width: 500px;
+	height: 400px;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bgDivStub{
+	font-family: "Century Gothic", "Times Roman", sans-serif; ;
+	padding-top:25px;
+	padding-bottom:15px;
+	text-align: left;
+	background: white;
+	width: 500px;
+	height: 300px;
 	border-radius: 25px;
 	margin-left: auto;
 	margin-right: auto;
